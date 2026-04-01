@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.redstonerdev.verticalscroll.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MouseMixin",
+    "InGameHudMixin",
+    "PlayerInventoryAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,40 @@
+// =============================================================================
+// Minecraft version profiles
+//
+// To build or run for a specific version:
+//   ./gradlew build      -Pmc_target=1.21.x
+//   ./gradlew runClient  -Pmc_target=26.1.x
+//
+// To add a new MC version, copy an existing entry and update the values.
+// Set mc_target in gradle.properties to change the default.
+//
+// mappings values:
+//   'yarn'   -> community Yarn mappings (set the yarn version string below)
+//   'mojang' -> loom.officialMojangMappings() (works for both 1.21.x and 26.1.x+)
+//
+// srcDir: source directory under src/ shared across patch versions of the same family
+// =============================================================================
+ext.MC_PROFILES = [
+
+    '1.21.x': [
+        srcDir    : '1.21.x',
+        minecraft : '1.21.11',
+        mappings  : 'yarn',
+        yarn      : '1.21.11+build.4',
+        loader    : '0.18.5',
+        fabricApi : '0.139.5+1.21.11',
+        modmenu   : '17.0.0',
+        java      : 21,
+    ],
+
+    '26.1.x': [
+        srcDir    : '26.1.x',
+        minecraft : '26.1.1',            // latest in family; compiled output is identical across 26.1.x patch versions
+        mappings  : 'none',              // unobfuscated; no mappings line + plain implementation, not modImplementation
+        loader    : '0.18.6',
+        fabricApi : '0.145.2+26.1.1',
+        modmenu   : '18.0.0-alpha.8',
+        java      : 25,
+    ],
+
+]

@@ -1,0 +1,6 @@
+{
+  "key.verticalscroll.modifier": "纵向滚动修饰键",
+  "key.category.verticalscroll.category": "纵向滚动",
+  "config.verticalscroll.title": "纵向滚动设置",
+  "config.verticalscroll.gap": "列间距：%s"
+}

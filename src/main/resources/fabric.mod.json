@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "verticalscroll",
+  "version": "${version}",
+  "name": "Vertical Scroll",
+  "description": "Hold a modifier key (default: Left Alt) and scroll to cycle items through the vertical column of your selected hotbar slot.",
+  "authors": ["_stonyyy"],
+  "license": "MIT",
+  "environment": "client",
+  "icon": "assets/verticalscroll/icon.png",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/vertical-scroll",
+    "sources": "https://github.com/stonyyy0/Vertical-Scroll",
+    "issues": "https://github.com/stonyyy0/Vertical-Scroll/issues"
+  },
+  "entrypoints": {
+    "client": [
+      "io.redstonerdev.verticalscroll.VerticalScrollMod"
+    ],
+    "modmenu": [
+      "io.redstonerdev.verticalscroll.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "verticalscroll.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21"${fabric_api_dep}
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
