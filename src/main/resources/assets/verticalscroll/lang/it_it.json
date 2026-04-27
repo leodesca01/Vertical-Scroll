@@ -1,5 +1,6 @@
 {
   "key.verticalscroll.modifier": "Tasto scorrimento verticale",
   "key.verticalscroll.toggle_gap": "Attiva/disattiva spazio colonna",
-  "key.category.verticalscroll.category": "Scorrimento verticale"
+  "key.category.verticalscroll.category": "Scorrimento verticale",
+  "key.categories.verticalscroll": "Scorrimento verticale"
 }

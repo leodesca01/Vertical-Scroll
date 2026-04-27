@@ -1,6 +1,7 @@
 {
   "key.verticalscroll.modifier": "Tecla de rolagem vertical",
   "key.category.verticalscroll.category": "Rolagem vertical",
+  "key.categories.verticalscroll": "Rolagem vertical",
   "config.verticalscroll.title": "Configurações de rolagem vertical",
   "config.verticalscroll.gap": "Espaço da coluna: %s"
 }

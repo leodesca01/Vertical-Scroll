@@ -1,6 +1,7 @@
 {
   "key.verticalscroll.modifier": "Vertical Scroll Modifier",
   "key.category.verticalscroll.category": "Vertical Scroll",
+  "key.categories.verticalscroll": "Vertical Scroll",
   "config.verticalscroll.title": "Vertical Scroll Settings",
   "config.verticalscroll.gap": "Column Gap: %s"
 }

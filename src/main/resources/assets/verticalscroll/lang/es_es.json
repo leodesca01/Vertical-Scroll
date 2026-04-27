@@ -1,6 +1,7 @@
 {
   "key.verticalscroll.modifier": "Tecla de desplazamiento vertical",
   "key.category.verticalscroll.category": "Desplazamiento vertical",
+  "key.categories.verticalscroll": "Desplazamiento vertical",
   "config.verticalscroll.title": "Configuración de desplazamiento vertical",
   "config.verticalscroll.gap": "Espacio de columna: %s"
 }

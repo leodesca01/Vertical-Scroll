@@ -1,6 +1,7 @@
 {
   "key.verticalscroll.modifier": "Вертикальная прокрутка (клавиша)",
   "key.category.verticalscroll.category": "Вертикальная прокрутка",
+  "key.categories.verticalscroll": "Вертикальная прокрутка",
   "config.verticalscroll.title": "Настройки вертикальной прокрутки",
   "config.verticalscroll.gap": "Зазор колонки: %s"
 }

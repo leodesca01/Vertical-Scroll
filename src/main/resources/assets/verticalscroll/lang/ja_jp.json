@@ -1,5 +1,6 @@
 {
   "key.verticalscroll.modifier": "縦スクロール修飾キー",
   "key.verticalscroll.toggle_gap": "列の隙間を切り替え",
-  "key.category.verticalscroll.category": "縦スクロール"
+  "key.category.verticalscroll.category": "縦スクロール",
+  "key.categories.verticalscroll": "縦スクロール"
 }

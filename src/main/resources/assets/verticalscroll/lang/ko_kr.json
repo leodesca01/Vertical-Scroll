@@ -1,5 +1,6 @@
 {
   "key.verticalscroll.modifier": "세로 스크롤 보조 키",
   "key.verticalscroll.toggle_gap": "열 간격 전환",
-  "key.category.verticalscroll.category": "세로 스크롤"
+  "key.category.verticalscroll.category": "세로 스크롤",
+  "key.categories.verticalscroll": "세로 스크롤"
 }
