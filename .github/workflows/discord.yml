@@ -1,6 +1,8 @@
 name: Discord Notifications
 
 on:
+  workflow_dispatch:
+
   issues:
     types:
       - opened
