@@ -19,6 +19,10 @@
 
 - Extracted the column-rotation logic from `MouseMixin` into a shared `ColumnScroller`
   class, reused by both the scroll wheel and the new key binding.
+- Added a Minecraft **26.3** source variant (`src/26.3.x`). 26.3 renamed
+  `InputConstants.Type.KEYSYM` to `InputConstants.Type.KEYBOARD`; the variant is otherwise
+  identical to `src/26.1.x`. (A matching build target needs to be registered in the build
+  script.)
 
 
 ## 1.0.0 — Initial Release
